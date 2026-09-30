@@ -1,28 +1,30 @@
 {
-  "expo": {
-    "name": "Txt2Cart",
-    "slug": "txt2cart-app",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.txt2cart.app",
-      "buildNumber": "1"
-    },
-    "android": {
-      "package": "com.txt2cart.app",
-      "versionCode": 1,
-      "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "expo": {
+          "name": "txt2cart-app",
+          "slug": "txt2cart-app",
+          "version": "1.0.0",
+          "orientation": "portrait",
+          "icon": "./assets/icon.png",
+          "userInterfaceStyle": "light",
+          "ios": {
+                  "supportsTablet": true,
+                  "bundleIdentifier": "com.txt2cart.app",
+                  "buildNumber": "1"
+          },
+          "android": {
+                  "adaptiveIcon": {
+                            "backgroundColor": "#E6F4FE",
+                            "foregroundImage": "./assets/android-icon-foreground.png",
+                            "backgroundImage": "./assets/android-icon-background.png",
+                            "monochromeImage": "./assets/android-icon-monochrome.png"
+                  },
+                  "package": "com.txt2cart.app",
+                  "versionCode": 1
+          },
+          "web": {
+                  "favicon": "./assets/favicon.png"
+          },
+          "description": "Text your group order to Carter and let everyone reply with their own pick -- no app required to participate.",
+          "primaryColor": "#1E2761"
     }
-  }
 }
