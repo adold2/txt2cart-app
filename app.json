@@ -24,7 +24,7 @@
           "web": {
                   "favicon": "./assets/favicon.png"
           },
-          "description": "Text your group order to Carter and let everyone reply with their own pick -- no app required to participate.",
+          "description": "Text your group order to Txter and let everyone reply with their own pick -- no app required to participate.",
           "primaryColor": "#1E2761"
     }
 }
