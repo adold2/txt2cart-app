@@ -1,30 +1,38 @@
 {
-    "expo": {
-          "name": "Txt2Cart",
-          "slug": "txt2cart-app",
-          "version": "1.0.0",
-          "orientation": "portrait",
-          "icon": "./assets/icon.png",
-          "userInterfaceStyle": "light",
-          "ios": {
-                  "supportsTablet": true,
-                  "bundleIdentifier": "com.txt2cart.app",
-                  "buildNumber": "1"
-          },
-          "android": {
-                  "adaptiveIcon": {
-                            "backgroundColor": "#E6F4FE",
-                            "foregroundImage": "./assets/android-icon-foreground.png",
-                            "backgroundImage": "./assets/android-icon-background.png",
-                            "monochromeImage": "./assets/android-icon-monochrome.png"
-                  },
-                  "package": "com.txt2cart.app",
-                  "versionCode": 1
-          },
-          "web": {
-                  "favicon": "./assets/favicon.png"
-          },
-          "description": "Text your group order to Txter and let everyone reply with their own pick -- no app required to participate.",
-          "primaryColor": "#1E2761"
+  "expo": {
+    "name": "Txt2Cart",
+    "slug": "txt2cart-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.txt2cart.app",
+      "buildNumber": "1",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "com.txt2cart.app",
+      "versionCode": 2
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "Text your group order to Txter and let everyone reply with their own pick -- no app required to participate.",
+    "primaryColor": "#1E2761",
+    "extra": {
+      "eas": {
+        "projectId": "6074290c-1462-4430-bc32-b7b029b08f6e"
+      }
     }
+  }
 }
